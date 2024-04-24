@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Ubuntu, sans-serif;
+}
+
+.header{
+    margin: 1.1rem 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 18px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.nav{
+    display: flex;
+    gap: 50px;
+}
+
+.nav-text{
+    text-decoration: none;
+    color: black;
+}
+
+.call-to-action{
+    display: flex;
+    gap: 2rem;
+}
+
+.call{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    gap: 0.8rem;
+}
+
+/* main section */
+
+.main-bg{
+    position: fixed;
+    z-index: -1;
+}
+
+.x{
+    color: #FF5A30;
+}
+
+.main-text{
+    position: absolute;
+    top: 36%;
+    left: 22%;
+    line-height: 1.3; 
+}
+
+.main-title{
+    display: flex;
+    font-size: 4.3rem;
+    color: white;
+}
+
+.main-description{
+    color: #FFFFFF;
+    width: 35rem;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-top: 1rem;
+}
+
+.main-buttons{
+    display: flex;
+    gap: 2rem;
+    margin-top: 4rem;
+}
+
+.main-button{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 3rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: flex;
+    text-align: center;
+}
+
+.m-first-btn{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: 1px solid white;
+    overflow: hidden;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+    width: 17rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.m-second-btn{
+    background-color: #FF5A30;
+    border: none;
+    border-radius: 5px;
+    width: 13rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
