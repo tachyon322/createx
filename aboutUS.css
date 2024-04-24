@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: 600;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.nav{
+    display: flex;
+    gap: 50px;
+}
+
+.nav-about{
+    color: #FF5A30;
+    text-decoration: none;
+}
+
+.nav-text{
+    text-decoration: none;
+    color: black;
+}
+
+.call-to-action{
+    display: flex;
+    gap: 2rem;
+}
+
+.call{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    gap: 0.8rem;
+}
+
+.main-bg{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.main-text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    margin-left: 9rem;
+}
