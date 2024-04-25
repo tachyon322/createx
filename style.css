@@ -1,17 +1,15 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Ubuntu, sans-serif;
+    font-family: Ubuntu , sans-serif;
 }
 
 .header{
-    margin: 1.1rem 0px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    position: sticky;
-    top: 18px;
     font-weight: 600;
+    padding: 1rem 0;
 }
 
 .logo{
@@ -43,9 +41,8 @@
 
 /* main section */
 
-.main-bg{
-    position: fixed;
-    z-index: -1;
+.main{
+    overflow:hidden;
 }
 
 .x{
@@ -120,4 +117,45 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
+}
+
+/* main section [about] */
+
+.main-about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-about-text{
+    position: relative;
+    text-align: center;
+    margin: 4rem 0;
+}
+
+.m-about-title{
+    font-size: 48px;
+}
+
+.m-about-description{
+    line-height: 4;
+    font-size: 18px;
+    color: gray;
+}
+
+/* main section [values] */
+
+.main-values{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10rem 0;
+}
+
+.main-values-text{
+    text-align: center;
+}
+
+.m-values-title{
+    font-size: 48px;
 }
