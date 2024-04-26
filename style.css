@@ -143,6 +143,36 @@
     color: gray;
 }
 
+.main-about-img{
+    position: relative;
+    align-items: center;
+}
+
+.m-about-img{
+    filter: brightness(50%);
+}
+
+.m-about-play-btn{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.m-about-play-btn:hover{
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    transition: 1s;
+}
+
+.m-about-play-btn:not(:hover){
+    transition: 1s;
+}
+
+
 /* main section [values] */
 
 .main-values{
@@ -158,4 +188,26 @@
 
 .m-values-title{
     font-size: 48px;
+}
+
+.m-values-description{
+    line-height: 6;
+}
+
+.main-values-images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0rem 14rem;
+    gap: 2rem;
+
+}
+
+.m-values-divider{
+    width: 1px;
+    height: 200px;
+}
+
+.values-p{
+    margin: 0.7rem 0;
 }
