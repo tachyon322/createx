@@ -197,7 +197,6 @@
 .main-values-images{
     display: flex;
     align-items: center;
-    justify-content: center;
     margin: 0rem 14rem;
     gap: 2rem;
 
@@ -210,4 +209,68 @@
 
 .values-p{
     margin: 0.7rem 0;
+}
+
+.values-text{
+    margin-top: 1rem;
+}
+
+/* main section [forms] */
+
+.main-forms{
+    width: 70rem;
+    height: 13rem;
+    background-color: antiquewhite;
+    justify-content: center;
+    margin: 8rem auto;
+}
+
+.main-form-columns{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.forms-centered{
+    padding: 2rem 0;
+}
+
+.form-flex-columns{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.main-input{
+    border: 1px solid var(--gray-400);
+    border-radius: 4px;
+    width: 260px;
+    height: 44px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #f4f5f6;
+  }
+
+.main-forms-button{
+    background-color: #FF5A30;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    width: 6rem;
+    height: 2.6rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.7rem 0;
 }
